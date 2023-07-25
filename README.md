@@ -47,7 +47,7 @@ The script performs the following actions:
 To perform ARP spoofing on a network and filter traffic based on a blacklist, run the following command:
 
 ```bash
-python3 ARP-Spoofing-Based-Parental-Control.py -b blacklist.txt -c 2
+python3 main.py -b blacklist.txt -c 2
 ```
 
 Replace `blacklist.txt` with the path to the file containing the blacklist.
